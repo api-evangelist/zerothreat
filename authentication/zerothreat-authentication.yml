@@ -1,0 +1,22 @@
+generated: '2026-10-21'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://zerothreat.ai/authentication-and-authorization
+sources:
+- https://zerothreat.ai/authentication-and-authorization
+- https://zerothreat.ai/blog/explaining-broken-authentication-with-tips-to-prevent-it
+- https://zerothreat.ai/blog/ultimate-guide-to-token-based-authentication
+- https://zerothreat.ai/blog/what-is-multi-factor-authentication
+description: ZeroThreat supports testing of JWT and Basic authentication schemes.
+schemes:
+- type: jwt
+  name: JWT Authentication
+  evidence: JWT Authentication Verify signature integrity, claim validation, and expiration handling to ensure secure token management.
+  location: header
+  header: Authorization
+- type: http-basic
+  name: Basic Auth Test
+  evidence: Role-Based Access Control Easily define and enforce access policies based on user roles and responsibilities with basic auth test.
+  location: header
+  header: Authorization
+docs: https://zerothreat.ai/authentication-and-authorization

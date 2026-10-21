@@ -1,23 +1,85 @@
 aid: zerothreat
+
 name: ZeroThreat
-description: 'ZeroThreat is a company surfaced via the API Evangelist harvest backlog (source: g2-catalog)
-  and added to the network as a stub for full-pipeline profiling.'
+
+image: https://s3.ap-south-1.amazonaws.com/images.zerothreat.ai/automated_penetration_testing_platform_for_web_app_and_api_9649304105.svg
+
+description: 'ZeroThreat offers an AI‑driven automated penetration testing platform that continuously tests modern web applications and APIs. It provides end‑to‑end coverage—including authentication flows, business logic, and API attack patterns—and delivers exploit‑validated proof and audit‑ready reports for enterprise security teams, DevOps pipelines, SaaS providers, developers, MSSPs, and startups.'
+
 url: https://raw.githubusercontent.com/api-evangelist/zerothreat/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:g2-catalog
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-21 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-21'
+
 modified: '2026-10-21'
+
 tags:
-- Company
-apis: []
+- Pentesting
+- Web Application Security
+- API Security
+- DevOps
+- Enterprise Security
+- Compliance
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Plans
+  url: plans/zerothreat-plans-pricing.yml
+- type: Authentication
+  url: authentication/zerothreat-authentication.yml
+- type: LLMsTxt
+  url: llms/zerothreat-llms.txt
+- type: Hosts
+  url: hosts/zerothreat-hosts.yml
+- type: Vendors
+  url: vendors/zerothreat-vendors.yml
+- type: TermsOfService
+  url: https://zerothreat.ai/terms-of-use
+- type: PrivacyPolicy
+  url: https://zerothreat.ai/privacy-policy
+- type: Pricing
+  url: https://zerothreat.ai/pricing
+- type: Newsroom
+  url: https://zerothreat.ai/news
+- type: DeveloperPortal
+  url: https://zerothreat.ai/solutions/developers
+- type: Blog
+  url: https://zerothreat.ai/blog
+- type: GettingStarted
+  url: https://zerothreat.ai/blog/zerothreat-web-and-api-security-testing-with-zero-configuration
+- type: Documentation
+  url: https://help.zerothreat.ai/
+- type: DomainSecurity
+  url: security/zerothreat-domain-security.yml
 - type: Website
   url: https://zerothreat.ai/
+
+apis: []
+
+x-coverage:
+  state: unreadable
+  reason: js-rendered-docs
+  detail: Documentation pages return 404 or are JavaScript rendered, no machine-readable spec found.
+  evidence:
+    - url: https://zerothreat.ai/
+      status: 404
+  checked: '2026-10-21'
+x-enrichment:
+  date: '2026-10-21'
+  status: enriched
+  artifacts_added: 11
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

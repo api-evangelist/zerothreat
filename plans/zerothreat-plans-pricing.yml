@@ -1,0 +1,50 @@
+generated: '2026-10-21'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://zerothreat.ai/pricing
+sources:
+- https://zerothreat.ai/pricing
+- https://zerothreat.ai/blog/fintech-pentesting-cost-breakdown
+name: ZeroThreat pricing
+audience: business-product
+pricing_basis: per-seat
+plans:
+- name: Free
+  price_text: $0
+  price: 0
+  description: Run real scans with a limited preview of detected vulnerabilities across your applications & APIs.
+  features:
+  - 1 scan credit per month
+  - Scan 1 target per account
+  - Limited vulnerability insights preview
+- name: Professional
+  price_text: $100 - Target + Target = Target Application (URL, Web App, APIs) Monthly Additional targets @ $75 each Annually 20% Saving
+  description: Target based unlimited scans with scheduled automated scans, AI remediation, and compliance coverage.
+  features:
+  - Unlimited scans
+  - AI remediation & executive summaries
+  - Sensitive data & cloud misconfig insights
+  - 130K+ vulnerability coverage
+  - CVE Intelligence (updated monthly)
+  - Authenticated scans
+  - Business logic & access control testing
+  - API pentesting (REST, GraphQL, SOAP, gRPC)
+  - Region-based data storage & access control
+  - Continuous compliance coverage (GDPR, ISO27001, PCI-DSS, HIPAA)
+  - Audit‑ready reports
+- name: Pay Per Scan
+  price_text: $125 - 5 Credit + Credit Valid for 1 Year
+  description: Flexible, on‑demand security testing with unlimited targets and volume discounts.
+  features:
+  - Unlimited targets
+  - AI remediation & executive summaries
+  - Sensitive data & cloud misconfig insights
+  - 7‑day unlimited retest window
+  - Popular CVE‑based attack coverage
+  - Authenticated scans
+  - Business logic security testing
+  - API pentesting (REST, GraphQL, SOAP, gRPC)
+  - Region‑based data storage & access control
+  - Compliance view for GDPR, ISO27001, PCI‑DSS, HIPAA
+  - Audit‑ready compliance reports
+docs: https://zerothreat.ai/pricing
